@@ -1,0 +1,27 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "launchDebug",
+            "type": "clr",
+            "request": "launch",
+            "program": "${workspaceFolder}/bin/Debug/net35/${workspaceFolderBasename}.exe",
+            "args": [],
+            "cwd": "${workspaceFolder}",
+            "stopAtEntry": false,
+            "preLaunchTask": "buildDebug",
+            "console": "internalConsole",
+        },
+        {
+            "name": "launchDebug472",
+            "type": "clr",
+            "request": "launch",
+            "program": "${workspaceFolder}/bin/Debug472/net472/${workspaceFolderBasename}.exe",
+            "args": [],
+            "cwd": "${workspaceFolder}",
+            "stopAtEntry": false,
+            "preLaunchTask": "buildDebug472",
+            "console": "internalConsole",
+        },
+    ]
+}
